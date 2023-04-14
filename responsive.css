@@ -1,0 +1,134 @@
+@media screen and (max-width:1024px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;    
+        align-items: center;
+        height: 1300px;
+    }
+    .desc{
+        z-index: 6;
+        flex:1;
+        margin-top: -350px;
+    }
+    .imgs{
+        flex: 1;
+    }
+
+
+    .container .desc h1{
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    .infor{
+        flex-direction: column-reverse;
+        height: 1800px;
+        /* justify-content: center; */
+        justify-content: space-between;
+        align-items: center;
+    }
+    .skill{
+        
+        width: 70%;
+        align-items: flex-start;
+        flex: 1;
+
+    }
+    .about{
+    
+        width: 70%;
+        /* height: 2500px; */
+        justify-content: space-between;
+        flex: 1;
+
+    }
+    .field{
+        flex-direction: column;
+        font-size: 0.5rem;
+    }
+    .group{
+        font-size: 0.5rem;
+    }
+    .experience{
+        height: 800px;
+        justify-content: space-between;
+    }
+    .skillset{
+        width: 33%;
+    }
+    .award{
+        width: 30%;
+    }
+    .career{
+        width: auto;
+    }
+    .recent{
+        width:35%;
+    }
+    .non{
+        display: block;
+    }
+    .line{
+        margin: 20px 0 ;
+    }
+    .icon{
+        width: 20%;
+    }
+}
+@media screen and (max-width:640px) {
+    .infor{
+        height: 1900px;
+    }
+    .skill{
+        height: 1000px;
+    }
+    .experience{
+        height: 800px;
+    }
+    
+    .skillset{
+        width: 35%;
+    }
+    .award{
+        width: 35%;
+    }
+    .career{
+        width: auto;
+    }
+    .recent{
+        width:35%;
+    }
+    
+    .about p {
+        width: 100%;
+    }
+}
+@media screen and (max-width:450px){
+    .infor{
+        height: auto;
+    }
+    .skill{
+        height: 2000px;
+        justify-content: space-between;
+    }
+    .experience{
+        height: 1000px;
+    }
+    /* .about p {
+        width: 100%;
+    } */
+    .skillset{
+        width: auto;
+    }
+    .award{
+        width: auto;
+    }
+    .career{
+        width: auto;
+    }
+    .recent{
+        width:100%;
+    }
+    .contact{
+        height: 700px;
+    }
+}

@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 50rem;
+    display: flex;
+    background-color: #f6f4f1;
+    justify-content: center;
+    position: relative;
+    
+
+}
+.container::before{
+    content: "";
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(180deg);
+    z-index: 0;
+    
+
+}
+.container::after{
+    content: "";
+    width: 100%;
+    height: 120px;
+    background-color: white ;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    transform: rotate(177deg);
+    z-index: 0;
+
+    
+
+}
+.container .imgs{
+    /* width: 100px; */
+    height: auto;
+    flex: 1;
+    object-fit: cover;
+    padding: 180px 125px 217px 165px ;
+
+}
+.container .desc{
+    flex: 2;
+    padding-top: 180px;
+ 
+
+}
+.container .desc p{
+    font-size: 1.25rem;
+    color:#9E8C6C ;
+
+}
+.container .desc h1{
+    font-size: 7rem;
+    font-weight: 900;
+}
+.container .desc button{
+    width: 255px;
+    height: 60px;
+    background-color: #0699A6;
+    color: white;
+    border: none    ;
+}
+.infor{
+    display: flex;
+    height: 1200px;
+
+}
+.skill{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.about{
+    flex: 2;
+    margin-left: 20px;
+
+}
+.skillset{
+    width: 40%;
+}
+.award{
+    width: 40%;
+}
+.career{
+    width: 40%;
+}
+.recent{
+    width: 40%;
+}
+.group{
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    color: #9E8C6C;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line{
+    width: 71px;
+    height: 10px;
+    background-color: #0699A6;
+
+}
+.field{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #9E8C6C;
+
+}
+.field h2{
+    color: black;
+    font-size: 0.8rem;
+}
+.experience p{
+    width: 70%;
+}
+.experience{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about p{
+    width: 80%;
+}
+.education{
+    width: 80%;
+
+}
+.contact{
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f4f1;
+    position: relative;
+}
+.contact h1{
+    font-size: 4.2rem;
+}
+.contact p{
+    font-size: 1.5rem;
+    color: #0699A6;
+    margin-bottom: 66px;
+    margin-top: 40px;
+}
+.icon{
+    width: 10%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact::before{
+    content: "";
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+
+}
+.contact::after{
+    content: "";
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(178deg);
+
+}
+.non{
+    display: none;
+}
